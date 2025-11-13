@@ -1,0 +1,77 @@
+Traceback (most recent call last):
+  File "E:\Documents\Hackathon\data\retrain_with_feedback.py", line 274, in <module>
+    main()
+  File "E:\Documents\Hackathon\data\retrain_with_feedback.py", line 99, in main
+    print("\U0001f4e5 Loading main dataset...")
+  File "C:\Users\hp5cd\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4e5' in position 0: character maps to <undefined>
+📥 Loading main dataset...
+ℹ️ No accepted feedback rows to incorporate. Exiting.
+📥 Loading main dataset...
+ℹ️ No accepted feedback rows to incorporate. Exiting.
+📥 Loading main dataset...
+📥 Accepted feedback rows: 0, Admin seeds to consume: 1
+RETRAIN_START: loading training pipeline
+🧩 Consumed 1 admin synonym seed(s) → generated 15 rows.
+🔧 Generated 15 synthetic rows (by source): {'admin': 15}
+📊 Training set size after augmentation: 5274 (classes: 6)
+label
+restaurants      909
+shopping         889
+entertainment    887
+utilities        871
+groceries        860
+travel           858
+Name: count, dtype: int64
+
+🏁 Macro F1 after retrain: 0.9265
+               precision    recall  f1-score   support
+
+entertainment       0.87      0.92      0.89       177
+    groceries       0.99      0.98      0.99       172
+  restaurants       0.94      0.90      0.92       182
+     shopping       0.94      0.90      0.92       178
+       travel       0.92      0.92      0.92       172
+    utilities       0.91      0.95      0.93       174
+
+     accuracy                           0.93      1055
+    macro avg       0.93      0.93      0.93      1055
+ weighted avg       0.93      0.93      0.93      1055
+
+💾 Saved model -> E:\Documents\Hackathon\models\baseline_model.pkl
+💾 Saved vectorizer -> E:\Documents\Hackathon\models\tfidf_vectorizer.pkl
+🧹 Processed accepted feedback removed from user_feedback.csv; pending rows retained for admin review.
+📥 Loading main dataset...
+📥 Accepted feedback rows: 1, Admin seeds to consume: 0
+RETRAIN_START: loading training pipeline
+📌 Logged 1 merchant suggestions to E:\Documents\Hackathon\data\merchant_suggestions.csv
+🔧 Generated 6 synthetic rows (by source): {'user': 6}
+📊 Training set size after augmentation: 5269 (classes: 6)
+label
+restaurants      909
+entertainment    887
+shopping         879
+utilities        871
+travel           863
+groceries        860
+Name: count, dtype: int64
+
+🏁 Macro F1 after retrain: 0.9359
+               precision    recall  f1-score   support
+
+entertainment       0.90      0.90      0.90       177
+    groceries       0.99      0.98      0.99       172
+  restaurants       0.93      0.91      0.92       182
+     shopping       0.96      0.92      0.94       176
+       travel       0.90      0.95      0.92       173
+    utilities       0.94      0.95      0.95       174
+
+     accuracy                           0.94      1054
+    macro avg       0.94      0.94      0.94      1054
+ weighted avg       0.94      0.94      0.94      1054
+
+💾 Saved model -> E:\Documents\Hackathon\models\baseline_model.pkl
+💾 Saved vectorizer -> E:\Documents\Hackathon\models\tfidf_vectorizer.pkl
+🧹 Processed accepted feedback removed from user_feedback.csv; pending rows retained for admin review.

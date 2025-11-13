@@ -1,0 +1,6 @@
+transaction_text,predicted_category,confidence,review_required,true_category,source,top_probs_json,timestamp
+Payment bill upi to ashking,travel,0.26153776871798795,⚠️ Low confidence,,user,"{""travel"": 0.261538, ""restaurants"": 0.181564, ""entertainment"": 0.155526}",2025-11-13T00:08:58.341874
+UPI payment to nykaa,shopping,0.9366019702791996,✅,,user,"{""shopping"": 0.936602, ""restaurants"": 0.016047, ""utilities"": 0.015031}",2025-11-13T00:08:58.341874
+Electricity Bill Payment BESCOM,utilities,0.9880181195718332,✅,,user,"{""utilities"": 0.988018, ""shopping"": 0.002727, ""travel"": 0.002684}",2025-11-13T00:08:58.341874
+Booking IRCTC Train Ticket,travel,0.9976399781001916,✅,,user,"{""travel"": 0.99764, ""restaurants"": 0.000507, ""shopping"": 0.000493}",2025-11-13T00:08:58.341874
+Online purchase Amazon order #445,shopping,0.9388482239791244,✅,,user,"{""shopping"": 0.938848, ""utilities"": 0.015227, ""restaurants"": 0.01503}",2025-11-13T00:08:58.341874

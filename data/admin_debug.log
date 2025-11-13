@@ -1,0 +1,34 @@
+[2025-11-12T22:46:58.731711] Add ONE suggested merchant button clicked: merchant=karan, target_cat=shopping
+[2025-11-12T22:46:58.790297] add_merchant() (from suggestion) succeeded: karan -> shopping; removed=1
+[2025-11-12T22:46:58.790297] run_retrain_nonblocking() called
+[2025-11-12T22:46:58.790297] RETRAIN SCRIPT NOT FOUND: E:\Documents\Hackathon\retrain_with_feedback.py
+[2025-11-12T22:46:58.790297] run_retrain_nonblocking() returned False after add_merchant(from suggestion)
+[2025-11-12T22:46:58.790297] add_merchant() (from suggestion) failed: module 'streamlit' has no attribute 'experimental_rerun'
+[2025-11-12T22:57:42.170434] Add ONE suggested merchant button clicked: merchant=kan, target_cat=shopping
+[2025-11-12T22:57:42.236830] add_merchant() (from suggestion) succeeded: kan -> shopping; removed=1
+[2025-11-12T22:57:42.236830] run_retrain_nonblocking() called
+[2025-11-12T22:57:42.236830] Retrain script not found at: E:\Documents\Hackathon\retrain_with_feedback.py
+[2025-11-12T22:57:42.236830] Found retrain script at: E:\Documents\Hackathon\data\retrain_with_feedback.py
+[2025-11-12T22:57:42.246472] Retrain subprocess launched: pid=28308, script=E:\Documents\Hackathon\data\retrain_with_feedback.py, cwd=E:\Documents\Hackathon, log=E:\Documents\Hackathon\logs\retrain_stdout.log
+[2025-11-12T22:57:42.246472] run_retrain_nonblocking() returned True after add_merchant(from suggestion)
+[2025-11-12T22:57:42.249381] st.experimental_rerun not available or failed: st.experimental_rerun not present
+[2025-11-12T23:18:44.723445] Add ONE suggested merchant button clicked: merchant=ka, target_cat=restaurants
+[2025-11-12T23:18:44.791491] add_merchant() (from suggestion) succeeded: ka -> restaurants; removed=1
+[2025-11-12T23:18:44.791891] run_retrain_nonblocking() called
+[2025-11-12T23:18:44.791891] Retrain script not found at: E:\Documents\Hackathon\retrain_with_feedback.py
+[2025-11-12T23:18:44.792935] Found retrain script at: E:\Documents\Hackathon\data\retrain_with_feedback.py
+[2025-11-12T23:18:44.802760] Retrain subprocess launched: pid=16164, script=E:\Documents\Hackathon\data\retrain_with_feedback.py, cwd=E:\Documents\Hackathon, log=E:\Documents\Hackathon\logs\retrain_stdout.log
+[2025-11-12T23:18:44.804447] run_retrain_nonblocking() returned True after add_merchant(from suggestion)
+[2025-11-12T23:18:44.806141] st.experimental_rerun not available or failed: st.experimental_rerun not present
+[2025-11-12T23:35:28.782667] Add ONE suggested merchant button clicked: merchant=kap, target_cat=shopping
+[2025-11-12T23:35:28.867097] add_merchant() (from suggestion) succeeded: kap -> shopping; removed=1
+[2025-11-12T23:35:28.868651] run_retrain_and_confirm() called
+[2025-11-12T23:35:28.879474] Retrain subprocess launched: pid=28620, script=E:\Documents\Hackathon\data\retrain_with_feedback.py, cwd=E:\Documents\Hackathon, log=E:\Documents\Hackathon\logs\retrain_stdout.log
+[2025-11-12T23:35:29.198356] Evidence token found in retrain log within 0.32s
+[2025-11-12T23:35:29.198356] run_retrain_and_confirm() returned: success=True, detail=Retrain launched (pid=28620), evidence seen in log.
+[2025-11-12T23:45:20.466748] Add ONE suggested merchant button clicked: merchant=ash, target_cat=shopping
+[2025-11-12T23:45:20.543641] add_merchant() (from suggestion) succeeded: ash -> shopping; removed=1
+[2025-11-12T23:45:20.543951] run_retrain_and_confirm() called
+[2025-11-12T23:45:20.548751] Retrain subprocess launched: pid=31324, script=E:\Documents\Hackathon\data\retrain_with_feedback.py, cwd=E:\Documents\Hackathon, log=E:\Documents\Hackathon\logs\retrain_stdout.log
+[2025-11-12T23:45:20.849546] Evidence token found in retrain log within 0.30s
+[2025-11-12T23:45:20.849546] run_retrain_and_confirm() returned: success=True, detail=Retrain launched (pid=31324), evidence seen in log.

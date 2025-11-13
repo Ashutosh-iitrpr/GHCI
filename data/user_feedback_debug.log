@@ -1,0 +1,4 @@
+[2025-11-13T00:08:31.847290] User submitted 1 rows (data editor).
+[2025-11-13T00:08:31.849230] run_retrain_and_confirm() called (user UI)
+[2025-11-13T00:08:31.857549] Retrain subprocess launched (user UI): pid=19980, script=E:\Documents\Hackathon\data\retrain_with_feedback.py, cwd=E:\Documents\Hackathon, log=E:\Documents\Hackathon\logs\retrain_stdout.log
+[2025-11-13T00:08:32.159056] Evidence token found in retrain log within 0.30s (user UI)

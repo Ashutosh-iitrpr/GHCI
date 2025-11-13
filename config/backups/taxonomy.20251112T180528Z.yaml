@@ -1,0 +1,68 @@
+categories:
+  entertainment:
+    description: Subscriptions, shows, movies, events
+    display_name: Entertainment
+    synonyms:
+    - netflix
+    - spotify
+    - bookmyshow
+    - zee5
+    - hotstar
+    - kanav
+    - shaurya
+    - vaip
+  groceries:
+    description: Supermarkets and grocery stores
+    display_name: Groceries
+    synonyms:
+    - big bazaar
+    - dmart
+    - reliance fresh
+    - more supermarket
+    - spencers
+  restaurants:
+    description: Restaurants and food delivery
+    display_name: Restaurants
+    synonyms:
+    - mcdonalds
+    - swiggy
+    - zomato
+    - dominos
+    - kfc
+    - vendikin
+    - ka
+  shopping:
+    description: Online and offline retail
+    display_name: Shopping
+    synonyms:
+    - amazon
+    - flipkart
+    - myntra
+    - ajio
+    - nykaa
+    - flushkaran
+    - karan
+    - kan
+  travel:
+    description: Transport, flights, trains, taxis
+    display_name: Travel
+    synonyms:
+    - ola
+    - uber
+    - irctc
+    - indigo
+    - goibibo
+    - kp
+  utilities:
+    description: Bills and utilities
+    display_name: Utilities
+    synonyms:
+    - bescom
+    - airtel broadband
+    - tata power
+    - bwssb
+    - vodafone
+    - jassi
+updated_at: '2025-11-12T17:48:44.756873'
+updated_by: streamlit-admin
+version: 12
